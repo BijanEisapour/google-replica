@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Roboto, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header .text {
+
+}
+
+header .avatar {
+
+}
+
+main {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .logo {
+
+}
+
+main .search-box {
+    position: relative;
+}
+
+main .search-box .icon {
+    position: absolute;
+}
+
+main .search-box .icon-search {
+    left: 2rem;
+}
+
+main .search-box .icon-microphone {
+    right: 2rem;
+}
+
+main .buttons {
+
+}
+
+main .offer {
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: auto;
+}
+
+footer .left {
+
+}
+
+footer .right {
+
+}
